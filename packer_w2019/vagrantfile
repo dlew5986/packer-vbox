@@ -7,6 +7,8 @@ Vagrant.configure("2") do |config|
 
     config.vm.provider "virtualbox"
 
+    config.winrm.basic_auth_only = true
+
     config.vm.define "w2019", autostart: true do |v|
         v.vm.box = "w2019_virtualbox"
     end
