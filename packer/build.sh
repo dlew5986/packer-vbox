@@ -14,7 +14,7 @@ packer validate ./w2019_vbox.json
 packer build -force ./w2019_vbox.json
 
 # add box to vagrant
-vagrant box add --name w2019_virtualbox --force ~/Projects/packer/output/box_files/w2019_virtualbox.box
+vagrant box add --name w2019_virtualbox --force ~/Projects/packer-vbox/output/box_files/w2019_virtualbox.box
 
 # record end and calculate runtime duration
 end=$SECONDS
