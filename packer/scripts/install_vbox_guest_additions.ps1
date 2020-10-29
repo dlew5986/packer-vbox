@@ -1,4 +1,3 @@
-
 #Requires -RunAsAdministrator
 
 if (Test-Path 'D:/VBoxWindowsAdditions.exe')
