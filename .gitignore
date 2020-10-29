@@ -7,8 +7,7 @@ crash.log
 # For built boxes
 *.box
 
-# above this is default
-# below this is dlew
+# miscellaneous
 iso/
 output/
 .DS_Store
